@@ -20,7 +20,6 @@ function updateClock(){
   document.getElementById('clock').innerHTML = hour+":"+min+":"+sec;
   document.getElementById('clockDate').innerHTML = year+"."+month+"."+date;
 }
-//updateClock();
 
 function start(){
   //1秒ごとにupdateClock関数を呼び出す
